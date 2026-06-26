@@ -8,7 +8,7 @@ import os
 from pathlib import Path
 
 # Data directory
-DATA_DIR = Path(__file__).parent / 'data'
+DATA_DIR = Path(__file__).parent.parent / 'data'
 
 # Output directory for GeoJSON files
 OUTPUT_DIR = DATA_DIR / 'geojson'

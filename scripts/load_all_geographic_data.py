@@ -17,7 +17,7 @@ import sys
 DATABASE_URI = 'postgresql://app_user:password@localhost:5433/rtrwh_gis'
 
 # Data directory
-DATA_DIR = Path('data')
+DATA_DIR = Path(__file__).parent.parent / 'data'
 
 def load_shapefile_to_postgis(shp_path, table_name):
     """Load a shapefile into PostGIS database."""

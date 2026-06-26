@@ -18,12 +18,12 @@ DB_PASSWORD = "password"
 # Raster file paths
 RASTER_CONFIGS = [
     {
-        'path': os.path.join(os.path.dirname(__file__), 'data', 'Soil Depth', 'SOILDEPTH.tif'),
+        'path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Soil Depth', 'SOILDEPTH.tif'),
         'table': 'soil_depth',
         'description': 'Soil depth classification raster'
     },
     {
-        'path': os.path.join(os.path.dirname(__file__), 'data', 'Soil Texture', 'SOILTEXTURE.tif'),
+        'path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Soil Texture', 'SOILTEXTURE.tif'),
         'table': 'soil_texture',
         'description': 'Soil texture classification raster'
     }

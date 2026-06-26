@@ -22,19 +22,19 @@ DB_PASSWORD = "password"
  # List of raster files to process
 RASTER_CONFIGS = [
     # {
-    #     'path': os.path.join(os.path.dirname(__file__), 'data', 'Soil Depth', 'SOILDEPTH.tif'),
+    #     'path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Soil Depth', 'SOILDEPTH.tif'),
     #     'table': 'soil_depth_vector',
     #     'value_column': 'depth_class',
     #     'description': 'Vectorized soil depth classification'
     # },
     # {
-    #     'path': os.path.join(os.path.dirname(__file__), 'data', 'Soil Texture', 'SOILTEXTURE.tif'),
+    #     'path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Soil Texture', 'SOILTEXTURE.tif'),
     #     'table': 'soil_texture_vector',
     #     'value_column': 'texture_class',
     #     'description': 'Vectorized soil texture classification'
     # },
     {
-        'path': os.path.join(os.path.dirname(__file__), 'data', 'Soil Slope', 'Soil Slope', 'SOILSLOPE.tif'),
+        'path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Soil Slope', 'Soil Slope', 'SOILSLOPE.tif'),
         'table': 'soil_slope_vector',
         'value_column': 'slope_class',
         'description': 'Vectorized soil slope classification'

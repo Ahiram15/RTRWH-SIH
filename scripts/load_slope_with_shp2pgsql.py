@@ -18,7 +18,7 @@ DB_USER = "app_user"
 DB_PASSWORD = "password"
 
 RASTER_CONFIG = {
-    'path': os.path.join(os.path.dirname(__file__), 'data', 'Soil Slope', 'SOILSLOPE.tif'),
+    'path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Soil Slope', 'SOILSLOPE.tif'),
     'table': 'soil_slope_vector',
     'value_column': 'slope_class',
     'description': 'Vectorized soil slope classification'

@@ -13,7 +13,7 @@ import sys
 DATABASE_URI = 'postgresql://app_user:password@localhost:5433/rtrwh_gis'
 
 # Path to the shapefile
-SHAPEFILE_PATH = os.path.join(os.path.dirname(__file__), 'data', 'Aquifer Material', 'Aquif_Mat.shp')
+SHAPEFILE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Aquifer Material', 'Aquif_Mat.shp')
 
 def load_shapefile_to_postgis():
     """Load shapefile data into PostGIS database."""
